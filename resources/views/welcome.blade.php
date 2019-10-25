@@ -41,7 +41,7 @@
                             <input type="text" class="form-control" name="name">
     
                             <label for="">Precio</label>
-                            <input type="text" class="form-control" name="price">
+                            <input type="text" class="form-control" name="price" maxlength="10">
     
                             <label for="">Cantidad</label>
                             <input type="text" class="form-control" name="amount">

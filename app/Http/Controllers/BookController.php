@@ -21,7 +21,7 @@ class BookController extends Controller
         $this->validate($request, [
             'name' => 'required|string',
             'price' => 'required|numeric',
-            'amount' =>'required|numeric',
+            'amount' =>'required|integer',
             'image' => 'required|mimes:jpeg,bmp,png',
         ]);
 
